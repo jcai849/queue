@@ -1,0 +1,9 @@
+Package: queue
+Type: Package
+Title: Implements a very simple queue
+Version: 1.0
+Date: 2021-09-20
+Author: Jason Cairns
+Maintainer: Jason Cairns <jason.cairns@aucklanduni.ac.nz>
+Description: Extremely simple, functor-based in-memory queue (FIFO) attaining persistance through R closures. I'll change it to a more efficient C-based queue implementation when I have time.
+License: BSD_3_clause + file LICENSE

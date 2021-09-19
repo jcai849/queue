@@ -1,0 +1,12 @@
+importFrom("utils", "capture.output")
+importFrom("utils", "str")
+export("queue")
+export("dequeue")
+export("enqueue")
+S3method("enqueue", "queue")
+S3method("dequeue", "queue")
+S3method("as.list", "queue")
+S3method("format", "queue")
+S3method("print", "queue")
+S3method("str", "queue")
+
